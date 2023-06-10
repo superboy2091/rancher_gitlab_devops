@@ -8,12 +8,12 @@
 
     After installation you can open terminal and test git version
 
-        git version
+      git version
 
     And you need to config username and email
 
-        git config --global user.email = <Your Email Address>
-        git config --global user.name = <Your Name>
+      git config --global user.email = <Your Email Address>
+      git config --global user.name = <Your Name>
 
 - Install Docker
     
@@ -21,7 +21,7 @@
 
     After installation you can check version
 
-        docker version
+      docker version
 
 - Install Terraform
     
@@ -29,11 +29,11 @@
     
     - First, you have to install chocolately. Open powershell as administrator and run following code.
 
-            Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) 
+          Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) 
     
     - Second, install terraform using choco installer.
 
-            choco install terraform
+          choco install terraform
         
 - Create Rancher server at Amazon Web Service
 
